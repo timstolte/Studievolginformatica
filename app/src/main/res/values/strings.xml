@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Studievolg informatica</string>
+    <string name="title_activity_jaar_keuze">JaarKeuze</string>
 </resources>

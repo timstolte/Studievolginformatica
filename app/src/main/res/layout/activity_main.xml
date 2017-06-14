@@ -23,7 +23,7 @@
         android:layout_height="167dp"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
-        app:srcCompat="@drawable/hsLogo"
+        app:srcCompat="@drawable/hslogo"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="28dp" />
 
