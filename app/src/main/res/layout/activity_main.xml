@@ -15,13 +15,14 @@
         android:text="Inloggen"
         android:textColor="#ffffff"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="378dp" />
+        tools:layout_editor_absoluteY="381dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="132dp"
         android:layout_height="167dp"
         android:adjustViewBounds="true"
+        android:cropToPadding="false"
         app:srcCompat="@drawable/hsLogo"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="28dp" />
@@ -34,7 +35,8 @@
         android:inputType="textPersonName"
         android:text="Studienummer"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="234dp" />
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText3" />
 
     <EditText
         android:id="@+id/editText3"
@@ -44,7 +46,8 @@
         android:inputType="textPassword"
         android:text="Wachtwoord"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="309dp" />
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/Inloggen" />
 
 
 </android.support.constraint.ConstraintLayout>
